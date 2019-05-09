@@ -1,0 +1,64 @@
+body{
+	/*背景可以放置照片*/
+	background-image: url(http://cdn.shopify.com/s/files/1/0257/6087/products/Pikachu_Single_Front_dc998741-c845-43a8-91c9-c1c97bec17a4.png?v=1523938908);
+	/*如果圖案過小會導致自動repeat跑出重複圖檔，可以使用cover，會自動放大，同時畫面可能也會失真
+	*如果是照片過大的話，可以使用contain讓照片不超出網頁範圍，另外就是自行輸入長寬來控制其大小。
+	*/
+	background-size: cover;
+}
+
+h2{
+	color: red;
+	/*讓字體置中*/
+	text-align: center;
+	/*可以跑出邊界然後自行選擇粗度和顏色*/
+	border: 5px dashed purple;
+	/*屬標變化，pointer是指向的圖示*/
+	cursor: pointer;
+}
+p{
+	color: #806D15;
+}
+
+li{
+	/*讓li前面的原點消失*/
+	list-style: none;
+	/*原本是預設一個li屬於一行，inline是讓他可以放置在同一行*/
+	display: inline-block;
+}
+
+*{
+	font-family: 微軟正黑體;
+}
+#containter1{
+	padding: 0 10% 0 10%;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: red;
+}
+#containter2{
+	width: 50%;
+	float: right;
+}
+.para{
+	border: 3px solid #eef;
+}
+
+.active{
+	border: 3px solid green;
+	/*字體的裝飾*/
+	text-decoration: underline;
+	/*大寫*/
+	text-transform: uppercase;
+	/*行高*/
+	line-height: 50px;
+	/*字體*/
+	font-family: 微軟正黑體;
+	/*字體透明度 100~900 or bold*/
+	font-weight: 500;
+	/*字體大小*/
+	font-size: 24px;
+}
+

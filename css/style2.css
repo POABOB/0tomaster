@@ -1,0 +1,15 @@
+h2{
+	color: blue;
+}
+p{
+	/*內距*/
+	padding: 5px 5px; 
+	/*外距*/
+	margin: 10px 20px;
+	/*邊界*/
+	border: 2px solid #eee;
+	/*讓block能夠inline*/
+	display: inline-block;
+	width: 75px;
+	height: 100px;
+}
