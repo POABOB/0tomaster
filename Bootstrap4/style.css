@@ -1,0 +1,17 @@
+/*.btn-light{
+	background: orange;
+	font-weight: 400;
+	color: #eee;
+}
+
+.btn-light:hover{
+	background: #efbc7a;
+	font-weight: 500;
+	color: #eee;
+	font-weight: 400;
+}*/
+
+.col{
+	background: #eee;
+	border: 2px solid black;
+}
